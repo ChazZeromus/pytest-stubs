@@ -32,6 +32,6 @@ setup(
 	author='Chaz Zeromus',
 	author_email='chaz.zeromus@gmail.com',
 	packages=[package],
-	package_data={package: find_pyi_files(package)},
+	package_data={package: find_pyi_files(package) + ['py.typed']},
 	install_requires=depends,
 )
