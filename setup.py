@@ -6,7 +6,7 @@ from setuptools import setup
 name = 'pytest-stubs'
 package = 'pytest-stubs'
 description = 'personal stubs for pytest'
-version = '0.1'
+version = '0.0.1'
 depends=['pytest']
 
 def find_pyi_files(search_path):
